@@ -13,8 +13,6 @@ on:
       - 'feat*'
       - 'dev-**'
     #Branch developer won't be executed
-    paths:
-      - '.github/workflows/*'
 jobs:
   deploy:
     runs-on: ubuntu-latest
