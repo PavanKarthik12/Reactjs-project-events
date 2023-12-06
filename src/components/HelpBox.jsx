@@ -16,5 +16,5 @@ HelpBox.propTypes = {
   text: string,
 };
 
-// Added comments
+// Added commentswewww
 export default HelpBox;
