@@ -10,7 +10,7 @@ on:
   push:
     branches: 
       - 'master'
-      - 'feat-*'
+      - 'feat*'
       - 'dev-**'
     #Branch developer won't be executed
     paths-ignore:
