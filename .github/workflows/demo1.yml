@@ -13,7 +13,7 @@ on:
       - 'feat*'
       - 'dev-**'
     #Branch developer won't be executed
-    paths-ignore:
+    paths:
       - '.github/workflows/*'
 jobs:
   deploy:
