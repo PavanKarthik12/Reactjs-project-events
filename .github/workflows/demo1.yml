@@ -29,3 +29,5 @@ jobs:
         run: npm run build
       - name: Deploy project
         run: echo "Deploying..."
+      - name: default environment variable
+        run: echo "${{ env.GITHUB_EVENT_PATH }}"
